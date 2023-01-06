@@ -1,0 +1,1067 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+:root {
+    --color: #738384;
+    --bg-color: #e6e6e6;
+    --bg-secondary-color: #eee;
+    --bg-azul: #009fff;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    color: var(--color);
+    background-color: var(--bg-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+p {
+    line-height: 1.2em;
+    letter-spacing: 0;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--bg-secondary-color);
+    border: 0;
+
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ddd;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(100, 100, 115, 0.24);
+}
+
+
+/* ESTILO DE LOGIN */
+.base-login {
+    width: 100%;
+    float: left;
+    background-color: var(--bg-azul);
+}
+
+.caixa-login {
+    width: 377px;
+    height: 340px;
+    margin: 150px auto;
+    padding: 20px 40px;
+    border-radius: 8px;
+    position: relative;
+    margin-bottom: 0;
+    box-shadow: 5px 5px 15px 0px #005e95;
+    background-color: var(--bg-secondary-color);
+}
+
+
+.caixa-login h1 {
+    text-align: center;
+    display: block;
+    color: var(--bg-azul);
+    padding-bottom: 20px;
+}
+
+.caixa-login input {
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    padding: 13px;
+}
+
+.caixa-login label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+/* BOTÃO GERAL */
+.btn {
+    display: block;
+    padding: 12px;
+    border-radius: 4px;
+    background-color: #50b8ff !important;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: .9em;
+    text-align: center;
+    border: 0 !important;
+    text-decoration: none;
+    clear: both;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #84cdf3 !important;
+}
+
+.btn.btn-curso {
+    float: right;
+    margin-top: 7px;
+    padding: 10px;
+}
+
+
+/* DUVIDA - COMENTARIO */
+.duvidas img {
+    width: 50px;
+    float: left;
+    margin-right: 10px;
+}
+
+.duvidas ul {
+    padding: 20px;
+    border: 1 solid #eee;
+}
+
+.duvidas ul li {
+    display: block;
+    margin-bottom: 0;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.duvidas .titulo {
+    padding-bottom: 5px;
+    font-size: .9em;
+}
+
+.duvidas .titulo b {
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+.duvidas .tt1 {
+    display: block;
+    padding-bottom: 10px;
+    font-size: .9em;
+    color: var(--bg-azul);
+}
+
+.duvidas .resposta {
+    background: rgba(0, 0, 0, 0.08);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.duvidas .resposta .titulo {
+    font-size: 1em;
+    text-transform: uppercase;
+    display: block;
+}
+
+.duvidas .resposta small {
+    font-weight: 300;
+    color: #5d5d5d;
+    display: block;
+    font-size: .7em;
+}
+
+.duvidas .resposta p {
+    padding-bottom: 10px;
+    font-size: .9em;
+    line-height: 1.5em;
+}
+
+/* CONTEUDO */
+
+.conteudo {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    padding: 0 25px;
+}
+
+.menu-grade,
+.menu-m {
+    display: none;
+}
+
+
+/* Cabecalho */
+.base-topo {
+    width: 100%;
+    float: left;
+    height: 57px;
+    padding: 10px 0;
+    background-color: var(--bg-azul);
+    position: relative;
+}
+
+.base-topo .logo {
+    width: 250px;
+    float: left;
+    background-color: #0000004f;
+    padding: 10px 55px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    text-decoration: none;
+    color: #fff;
+}
+
+.base-topo .menu-topo {
+    float: right;
+    margin-top: 7px;
+}
+
+.base-topo .menu-topo li {
+    display: inline-block;
+    margin-left: 20px;
+    position: relative;
+}
+
+.base-topo .menu-topo li a {
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+
+.base-topo .menu-topo li.sub {
+    float: left;
+}
+
+.base-topo .menu-topo li.sub ul {
+    display: none;
+    position: absolute;
+    left: -170px;
+    top: 30px;
+    width: 280px;
+    border: 1px solid #ddd;
+    background-color: var(--bg-azul);
+    z-index: 1;
+}
+
+.base-topo .menu-topo li.sub ul li {
+    display: block;
+    border: 1px dashed #fff;
+    margin: 0;
+}
+
+.base-topo .menu-topo li.sub ul li:last-child {
+    border-bottom: 0;
+}
+
+.base-topo .menu-topo li.sub ul li:first-child {
+    border-top: 0;
+}
+
+.base-topo .menu-topo li.sub ul li:hover {
+    background-color: #666677;
+}
+
+.base-topo .menu-topo li.sub ul li a {
+    display: block;
+    padding: 15px;
+}
+
+.base-topo .menu-topo li.sub:hover ul {
+    display: block;
+}
+
+.base-topo .menu-topo .thumb {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #666677;
+}
+
+.base-topo .menu-topo .thumb img {
+    cursor: pointer;
+    width: 100%;
+}
+
+.base-topo .menu-topo li.sub.user ul {
+    width: 200px;
+    left: unset;
+    top: 40px;
+    right: -20px;
+}
+
+.base-topo .menu-topo li.sub.user ul {
+    background-color: #fff;
+}
+
+.base-topo .menu-topo li.sub.user ul li b {
+    display: block;
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+.base-topo .menu-topo li.sub.user ul li a {
+    color: #3eb7ff;
+    padding: 10px;
+}
+
+.base-topo .menu-topo li.sub.user ul li:hover {
+    background: none;
+}
+
+.base-topo .menu-topo .ico {
+    width: 20px;
+    height: 30px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+
+/* SITE */
+.site {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.site::before,
+.site::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.menu-lateral::before,
+.menu-lateral::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+/* MENU LATERAL */
+
+.menu-lateral {
+    position: absolute;
+    left: 0;
+    top: 3.6em;
+    bottom: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.menu-lateral figure {
+    width: 100%;
+    float: left;
+    background-color: rgba(100, 100, 115, 0.24);
+    padding: 20px 30px;
+    color: #757584;
+
+}
+
+.menu-lateral figure .thumb {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.menu-lateral figure .thumb img {
+    width: 100%;
+}
+
+.menu-lateral figure strong,
+.menu-lateral figure small {
+    display: inline-block;
+    font-size: .9em;
+}
+
+.menu-lateral ul {
+    width: 100%;
+    display: inline-block;
+    padding: 30px 0;
+}
+
+.menu-lateral ul li {
+    display: block;
+    position: relative;
+}
+
+.menu-lateral ul li:hover {
+    background-color: rgba(116, 116, 132, 0.15);
+}
+
+.menu-lateral ul li a {
+    display: block;
+    padding: 20px;
+    font-size: .9em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #737484;
+    padding-left: 50px;
+}
+
+.menu-lateral ul li .ico {
+    display: inline-block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 20px;
+    top: 20px;
+}
+
+
+
+/* HOME DA BASE GERAL */
+.base-geral {
+    width: 100%;
+    float: left;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 275px;
+}
+
+.caixa {
+    width: 100%;
+    float: left;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0px 2px 3px 0 #c1c1c1;
+    padding: 20px;
+}
+
+.titulo {
+    display: block;
+    color: #686880;
+    font-size: 1em;
+    text-transform: initial;
+    font-weight: 700;
+    position: relative;
+}
+
+.titulo2 {
+    display: block;
+    font-size: .9em;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.titulo .case {
+    text-transform: uppercase;
+    background-color: #d2d2d8;
+    padding: 20.6px 15px;
+    position: relative;
+    left: -20px;
+    border-radius: 4px 0 0 4px;
+    top: 0;
+}
+
+.titulo .ico {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.base-home figure .thumb {
+    width: 102px;
+    height: 102px;
+    overflow: hidden;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+    border: 2px solid #494964;
+}
+
+.base-home figure .thumb img {
+    width: 100%;
+}
+
+.base-home figure small,
+.base-home figure strong {
+    display: inline-block;
+    line-height: .9em;
+}
+
+.base-home .rows.detalhes .cel9 .cel4 {
+    padding-top: 0;
+}
+
+.base-home .rows.detalhes .cel4 .caixa {
+    min-height: 164px;
+    padding: 30px 20px;
+}
+
+.base-home .rows.detalhes .cel9 .ico {
+    width: 40px;
+    height: 50px;
+    font-size: 3em;
+    color: var(--bg-azul);
+    display: block;
+    margin: 0 auto;
+}
+
+.base-home .rows.detalhes .cel9 h3 {
+    display: block;
+    text-align: center;
+    color: #696981;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.base-home .rows.detalhes .cel9 small {
+    display: block;
+    text-align: center;
+}
+
+.base-home .listagem .rolagem {
+    height: 300px;
+    overflow-y: scroll;
+
+}
+
+.base-home .lista {
+    width: 100%;
+    float: left;
+}
+
+.base-home .listagem .cel6 .caixa {
+    min-height: 445px;
+}
+
+.base-home .lista table {
+    width: 100%;
+}
+
+.base-home .lista thead th {
+    background: rgba(114, 114, 132, 0.18);
+    padding: 8px;
+    color: #727284;
+    font-size: .8em;
+    text-align: left;
+}
+
+.base-home .lista tbody td {
+    padding: 8px;
+    color: #727284;
+    font-size: .8em;
+    border-bottom: 1px solid #ddd;
+}
+
+.base-home .lista a {
+    color: #009fff;
+    text-decoration: none;
+}
+
+.base-home .matriculados a {
+    text-transform: uppercase;
+    margin: 3px;
+    color: #5596ab !important;
+    display: block;
+}
+
+.base-home .matriculados table a::before {
+    content: url(/assets/img/select1.png);
+    margin-right: 8px;
+    position: relative;
+    top: 3px;
+}
+
+
+
+/* MEUS CURSOS */
+.rows.cursos .caixa {
+    padding: 0;
+    border-radius: 0;
+}
+
+.rows.cursos .caixa img {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 15px;
+}
+
+.rows.cursos .caixa .del-cursos {
+    width: 100%;
+    float: left;
+    padding: 0 30px;
+    padding-bottom: 20px;
+}
+
+.rows.cursos .caixa .del-cursos p {
+    text-align: center;
+    display: block;
+    font-size: .8em;
+    min-height: 20px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+
+.rows.cursos .caixa .del-cursos small {
+    text-align: center;
+    display: block;
+    padding-bottom: 5px;
+}
+
+.rows.cursos .caixa .del-cursos small b {
+    color: #525261;
+    font-size: 1.2em;
+}
+
+.rows.cursos .caixa .del-cursos progress {
+    width: 100%;
+    display: block;
+    -webkit-appearance: none;
+}
+
+.rows.cursos .caixa .del-cursos progress::-webkit-progress-bar {
+    background-color: #ddd;
+    padding: 0;
+}
+
+.rows.cursos .caixa .del-cursos progress::-webkit-progress-value {
+    background-color: var(--bg-azul);
+}
+
+.rows.cursos .caixa .del-cursos .btn {
+    padding: 10px !important;
+    font-size: .8em !important;
+    margin-top: 20px;
+    background: #00d9a3 !important;
+}
+
+.rows.cursos .cel3 {
+    margin-right: 1.79%;
+    margin-left: 0;
+}
+
+.rows.cursos .cel3:nth-of-type(4n+0) {
+    margin-right: 0;
+}
+
+
+
+/* PERFIL DO USER */
+
+.base-perfil fieldset {
+    border-color: #ffffff5e;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 100%;
+}
+
+.base-perfil fieldset legend {
+    display: block;
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #424251;
+}
+
+.base-perfil fieldset .thumb {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.base-perfil fieldset .thumb img {
+    width: 100%;
+}
+
+.base-perfil fieldset .thumb:hover:before {
+    content: "Mudar foto";
+    position: absolute;
+    z-index: 0;
+    top: 56%;
+    background-color: rgba(0, 159, 255, 0.75);
+    color: #fff;
+    padding: 5px 8px;
+    cursor: pointer;
+    margin-left: -58px;
+    left: 50%;
+}
+
+.base-perfil fieldset .thumb input[type=file] {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+    background-color: none;
+    opacity: 0;
+}
+
+.base-perfil fieldset label {
+    display: block;
+    font-size: .8em;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+.base-perfil fieldset small {
+    text-align: center;
+    display: block;
+    font-size: .8em;
+}
+
+.base-perfil .cel12 {
+    width: 100%;
+    float: left;
+    padding: 5px 0;
+}
+
+.base-perfil .btn {
+    font-size: .9em !important;
+    padding: 10px 30px;
+    margin: 10px 0;
+    margin-bottom: 20px;
+    width: auto;
+}
+
+
+
+/* DETALES DO CURSO */
+.base-curso .base-caixa-curso {
+    width: 100%;
+    float: left;
+    background: none;
+    padding: 20px 0;
+    margin-bottom: 0;
+}
+
+.base-curso .cel8 ul {
+    width: 100%;
+    float: left;
+    padding-bottom: 30px;
+}
+
+.base-curso .cel8 ul li {
+    display: inline-block;
+    width: 32%;
+    padding-left: 17px;
+}
+
+.base-curso .cel8 ul li small,
+.base-curso .cel8 ul li span {
+    text-transform: uppercase;
+    display: block;
+}
+
+.base-curso .cel8 ul li small {
+    color: #61616a;
+    font-size: .7em;
+}
+
+.base-curso .cel8 ul li span {
+    color: var(--bg-azul);
+    font-size: .9em;
+}
+
+.base-curso .cel8 ul li:first-child {
+    padding-left: 0;
+}
+
+.base-curso .base-caixa-curso .thumb {
+    width: 100%;
+    float: left;
+    border: 0;
+    background-color: #dee1e6;
+    padding: 6px;
+}
+
+.base-curso .base-caixa-curso .thumb img {
+    width: 100%;
+}
+
+
+.base-curso .base-caixa-curso .cel3 {
+    margin-right: 20px;
+    padding-right: 20px;
+    width: 34.64583333333333%;
+    border-right: 1px solid #ddd;
+}
+
+.base-curso .base-caixa-curso .cel8 {
+    width: 60.53125%;
+}
+
+.base-curso .base-caixa-curso .cel8 .titulo {
+    font-weight: 400 !important;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.base-curso .base-caixa-curso .ico {
+    font-size: 30px;
+    margin-right: 10px;
+    float: left;
+    color: var(--bg-azul);
+}
+
+.base-curso .base-caixa-curso .progress {
+    width: 100%;
+    float: left;
+    padding-top: 6px;
+    padding-bottom: 10px;
+    clear: both;
+}
+
+.base-curso .base-caixa-curso .progress small {
+    display: inline-block;
+    text-transform: uppercase;
+    padding-right: 10px;
+    padding-bottom: 8px;
+}
+
+.base-curso .base-caixa-curso .progress small b {
+    color: #00acee;
+    font-size: 1.5em;
+}
+
+.base-curso .base-caixa-curso .progress progress {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+}
+
+.base-curso .base-caixa-curso .progress progress::-webkit-progress-bar {
+    background: #ddd;
+}
+
+.base-curso .base-caixa-curso .progress progress::-webkit-progress-value {
+    background: #00a3d9;
+}
+
+.base-curso .lista .ico {
+    font-size: 20px;
+    height: 20px;
+    float: left;
+    margin-right: 10px;
+    color: var(--bg-azul);
+}
+
+.verde {
+    color: #00d9a3 !important;
+}
+
+.red {
+    color: red !important;
+}
+
+
+
+
+/* seus-acessos */
+.seus-acessos {
+    width: 100%;
+    float: left;
+}
+
+.seus-acessos li {
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    padding: 9px 0;
+}
+
+.seus-acessos .ico {
+    font-size: 40px;
+    height: 20px;
+    float: left;
+    margin-right: 10px;
+    color: var(--bg-azul);
+}
+
+.seus-acessos li .tt1 {
+    display: block;
+    font-size: .8em;
+    text-transform: uppercase;
+    color: #00adef;
+}
+
+.seus-acessos li .tt2 {
+    display: block;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    color: #91919e;
+    letter-spacing: -1px;
+}
+
+/* AREA DE VIDEOS */
+.ver_videos .controles {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+
+.ver_videos .controles .btn.anterior {
+    display: inline-block;
+}
+
+.ver_videos .controles .btn.proximo {
+    float: right;
+}
+
+.ver_videos .controles .btn {
+    padding: 10px 20px;
+    font-size: .9em !important;
+}
+
+
+.v-downloads {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+.v-downloads li {
+    padding: 10px 0;
+}
+.v-downloads .icon {
+    color: #00adef;
+    text-transform: uppercase;
+    font-size: .9em;
+}
+.v-downloads .icon::before {
+    content: url();
+    color: #00adef;
+    text-transform: uppercase;
+    font-size: .9em;
+}
+.rows.comemtarios{
+}
+.rows.comemtarios textarea {
+border: 1px solid #ddd;
+}
+.rows.comemtarios .btn {
+    float: right;
+    width: auto;
+    margin-top: 10px;
+    border: 0;
+    font-size: .9em !important;
+}
+
+
+/* menu-sidebar */
+.menu-sidebar {
+    width: 100%;
+    float: left;
+    margin-bottom: 12px;
+}
+.menu-sidebar .scroll-lista{
+    height: 500px;
+    overflow-y: scroll;
+
+}
+.menu-sidebar .scroll-lista li{
+    position: relative;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border-bottom: 0;
+    padding-left: 26px;
+}
+.menu-sidebar .scroll-lista li a{
+  display: block;
+  color: #2b7083;
+  padding: 4px 0;
+  margin-bottom: 0;
+  line-height: 1.3em;
+  font-size: .9em;
+  text-decoration: none;
+}
+.menu-sidebar .scroll-lista .marcado a{
+ color: #86b6c5;
+}
+.menu-sidebar .scroll-lista .marcado::before{
+    position: absolute;
+    content: url(http://localhost/plataforma_ead/public/assets/img/marcado.png);
+    left: 0;
+    top: 15px;
+}
+.menu-sidebar .scroll-lista .naomarcado::before{
+    position: absolute;
+    content: url(http://localhost/plataforma_ead/public/assets/img/naomarcado.png);
+    left: 0;
+    top: 15px;
+}
+.menu-sidebar .scroll-lista .naomarcado a{
+ color: var(--bg-azul);
+}
+
+
+/* naoMatriculado */
+.naoMatriculado {
+    text-align: center;
+}
+.naoMatriculado .caixa{
+    padding: 80px 30px;
+    min-height: 680px;
+}
+.naoMatriculado .caixa i {
+    font-size: 150px;
+}
+.naoMatriculado .caixa h1 {
+    padding-top: 20px;
+}
+.naoMatriculado .caixa .btn {
+    font-size: 1em !important;
+    display: table;
+    margin: 30px auto;
+    padding: 10px 40px;
+}
+
+
+
+/* RODAPÉ */
+
+.base-rodape {
+    width: 100%;
+    background-color: #dadade;
+    padding: 15px 10px;
+    text-align: center;
+    font-size: .85em;
+    margin-top: 20px;
+    float: left;
+}

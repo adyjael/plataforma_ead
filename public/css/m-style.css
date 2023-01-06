@@ -1,0 +1,506 @@
+/* HOME */
+
+@media (max-width:1283px) {
+    .base-home figure .thumb {
+        width: 25.31984435797665%;
+        height: 74px;
+    }
+
+    .base-topo .logo,
+    .menu-lateral {
+        width: 19.48558067030398%;
+    }
+
+    .base-geral {
+        padding-left: 20.5%;
+    }
+
+    .rows.detalhes,
+    .rows.detalhes .cel9,
+    .rows.detalhes .cel4 {
+        padding-bottom: 0;
+    }
+
+}
+
+@media (max-width:1204px) {
+
+    .base-curso .base-caixa-curso .cel3 {
+        width: 33.645833%;
+    }
+
+    .base-curso .base-caixa-curso .ico {
+        text-align: center;
+        float: none;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .base-curso .base-caixa-curso ul {
+        padding-bottom: 5px;
+    }
+
+    .base-curso .base-caixa-curso ul li {
+        text-align: center;
+    }
+
+    .seus-acessos .ico {
+        font-size: 26px;
+        margin-bottom: 8px;
+    }
+
+    .seus-acessos li .tt1 {
+        font-size: .7em;
+    }
+
+    .seus-acessos li .tt2 {
+        font-size: .9em;
+    }
+}
+
+@media (max-width:1167px) {
+    .menu-lateral figure .thumb {
+        width: 24.62729231716434%;
+        height: 60px;
+    }
+
+    .base-home figure .thumb {
+        width: 20.04046500462947%;
+        height: auto;
+    }
+}
+
+@media (max-width:1040px) {
+    .base-home .rows.detalhes .cel9 .ico {
+        width: 20px;
+        height: 50px;
+        font-size: 2.4em;
+        display: block;
+        margin: 0 auto;
+
+    }
+
+    .base-home .rows.detalhes .cel4 .caixa {
+        padding: 30px 5px;
+    }
+
+    .menu-lateral figure .thumb {
+        float: none;
+        margin: 0 auto;
+        width: 60px;
+        height: 60px;
+        margin-bottom: 10px;
+    }
+
+    .menu-lateral figure {
+        text-align: center;
+    }
+
+}
+
+@media (max-width:1019px) {
+    .base-home .rows.detalhes .cel4 .caixa {
+        padding: 30px 10px;
+    }
+}
+
+@media (max-width:995px) {
+    .rows.cursos .cel3 {
+        width: 48%;
+        margin-left: 0;
+    }
+
+    .rows.cursos .caixa {
+        padding: 0 10px;
+        padding-bottom: 0;
+    }
+
+    .rows.cursos .caixa .del-cursos p {
+        min-height: 40px;
+    }
+
+
+
+}
+@media (max-width:970px){
+    .base-curso.ver_videos .cel3{
+        display: none;
+    }
+    .base-curso.ver_videos .cel8{
+     width: 100%;
+    }
+}
+
+@media (max-width:950px) {
+    .rows.base-curso .cel8.alt {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .rows.base-curso .cel3.alt2 {
+        width: 50%;
+        height: 100px;
+        border: 0;
+        margin: 0 auto;
+        padding: 0;
+        display: block;
+        float: none;
+    }
+
+    .rows.base-curso .cel8.alt2 {
+        width: 100%;
+        margin-top: 20px;
+        float: left;
+        text-align: center;
+    }
+
+    .rows.base-curso .cel3.alt {
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .rows.base-curso .cel8 .titulo {
+        padding-bottom: 20px;
+    }
+
+    .seus-acessos .ico {
+        font-size: 40px;
+        height: 20px;
+        float: none;
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 24px;
+    }
+
+    .lista.alternativo table td:nth-of-type(3),
+    .lista.alternativo table td:nth-of-type(5),
+    .lista.alternativo table th:nth-of-type(3),
+    .lista.alternativo table th:nth-of-type(5) {
+        display: none;
+    }
+    .base-home .lista table tbody td {
+        font-size: .95em;
+    }
+}
+
+@media (max-width:921px) {
+
+    .rows.detalhes .cel4,
+    .rows.detalhes .cel9 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .rows.detalhes .cel4 {
+        margin-bottom: 10px;
+    }
+
+    .base-home figure .thumb {
+        width: 130px;
+        height: 130px;
+    }
+
+    .base-home figure small,
+    .base-home figure strong {
+        display: block;
+        line-height: 1.5em;
+        font-size: 1.1em;
+    }
+
+    .base-home figure strong {
+        font-size: 1.8em;
+    }
+
+    .base-home .rows.detalhes .cel4 .caixa {
+        padding: 30px;
+    }
+
+    .base-home .rows.detalhes .cel9 .cel4 {
+        width: 32%;
+        margin-left: 1.9%;
+    }
+
+    .base-home .rows.detalhes .cel9 .cel4:first-child {
+        margin-left: 0;
+    }
+
+
+    .base-perfil fieldset.alt-mob .cel4,
+    .base-perfil fieldset.alt-mob .cel6 {
+        float: none;
+        margin: 0 auto !important;
+        display: block;
+        text-align: center !important;
+    }
+
+    .base-perfil fieldset.alt-mob .cel6 label {
+        text-align: left;
+    }
+
+
+}
+
+@media (max-width: 856px) {
+    .rows.listagem {
+        padding-top: 0;
+    }
+
+    .rows.listagem .cel6.matriculados {
+        padding-bottom: 10px;
+    }
+
+    .rows.listagem .cel6 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .menu-lateral figure {
+        display: none;
+    }
+
+    .menu-lateral ul li a {
+        font-size: .7em;
+        padding-left: 30px;
+    }
+
+    .menu-lateral ul li .ico {
+        font-size: 13px;
+        left: 10px;
+    }
+
+    .base-perfil fieldset.alt-mob .cel6,
+    .base-perfil fieldset.alt-mob .cel4 {
+        width: 80% !important;
+    }
+
+    .base-perfil .cel3,
+    .base-perfil .cel4,
+    .base-perfil .cel2 {
+        width: 100%;
+        margin-left: 0
+    }
+
+
+
+
+}
+
+
+@media (max-width: 749px) {
+    .base-home .rows.detalhes .cel4 .caixa {
+        padding: 30px 10px;
+    }
+
+    .duvidas ul {
+        padding: 20px 0;
+    }
+
+    .duvidas img {
+        width: 35px;
+    }
+
+
+
+}
+
+@media (max-width: 643px) {
+
+    .menu-lateral,
+    .menu-topo {
+        display: none;
+    }
+
+    .base-geral {
+        padding-left: 20px;
+    }
+
+    .menu-lateral,
+    .base-topo .logo {
+        width: 34.926053%;
+    }
+
+    .menu-lateral {
+        z-index: 1;
+    }
+
+    .menu-m {
+        display: block;
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        left: 8px;
+        top: 10px;
+        z-index: 1;
+        font-size: 23px;
+        color: #fff;
+    }
+
+    .menu-grade {
+        display: block;
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        right: 8px;
+        top: 10px;
+        z-index: 1;
+        font-size: 23px;
+        color: #fff;
+    }
+
+    .menu-topo {
+        display: none;
+        position: absolute;
+        right: 0px;
+        top: 54px;
+        width: 50%;
+        height: 400px;
+        z-index: 1;
+        background-color: #267fb1;
+        overflow-y: scroll;
+        padding: 20px;
+        margin-top: 5px !important;
+    }
+
+    .base-topo .menu-topo li {
+        margin-left: 0;
+
+    }
+
+    .base-topo .menu-topo li.sub {
+        width: 100%;
+
+    }
+
+    .base-topo .menu-topo li.sub.user ul {
+        position: initial;
+        width: 100%;
+        margin-top: 20px
+    }
+
+    .base-topo .menu-topo li.sub.user ul li {
+        background: none !important;
+    }
+
+    .base-topo .menu-topo li.sub ul {
+        width: 100%;
+        display: block;
+        left: 0;
+        right: 0;
+        position: initial;
+    }
+
+    .base-topo .menu-topo .thumb {
+        display: none;
+    }
+}
+
+/* LOGIN */
+
+@media (max-width: 495px) {
+    .base-home .rows.detalhes .cel9 .cel4 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .base-home .rows.detalhes .cel9 .ico {
+        width: 35px;
+        font-size: 3em;
+    }
+
+    .base-home .rows.detalhes .cel9 small {
+        font-size: 1em;
+        margin-top: 20px;
+    }
+
+    .base-home figure .thumb {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 10px;
+        float: none;
+        margin: 0 auto;
+    }
+
+    .base-home figure {
+        text-align: center;
+    }
+
+    .base-home figure strong {
+        font-size: 1.3em;
+    }
+
+    .base-home figure small {
+        font-size: 1em;
+    }
+
+    .menu-lateral,
+    .base-topo .menu-topo {
+        width: 100%;
+    }
+
+    .menu-lateral ul li a {
+        font-size: .9em;
+        padding-left: 42px;
+    }
+
+    .menu-lateral ul li .ico {
+        font-size: 20px;
+        left: 15px;
+    }
+
+    .menu-topo {
+        width: 80%;
+    }
+
+    .titulo .case {
+        display: none;
+    }
+
+    .titulo {
+        text-transform: uppercase;
+    }
+
+    .rows.cursos .cel3 {
+        width: 100%;
+    }
+
+    .rows.cursos .caixa .del-cursos p {
+        min-height: auto;
+        font-size: 1em;
+    }
+
+    .rows.cursos .caixa .del-cursos .btn {
+        font-size: 1.1em;
+        padding: 20px !important;
+    }
+
+    .base-perfil fieldset.alt-mob .cel4,
+    .base-perfil fieldset.alt-mob .cel6 {
+        width: 100% !important;
+    }
+
+    .duvidas ul li {
+        padding: 20px 10px;
+    }
+
+}
+
+
+@media (max-width: 450px) {
+  
+    .lista.alternativo .ico {
+       display: none
+    }
+    .rows.base-curso .cel3.alt2 {width: 100%;}
+}
+@media (max-width: 400px) {
+    .caixa-login {
+        width: 100%;
+        box-shadow: none;
+        margin: 80px auto;
+    }
+
+    .base-login {
+        padding: 0 20px;
+    }
+}
